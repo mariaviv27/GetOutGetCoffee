@@ -49,7 +49,7 @@ def on_message(client, userdata, msg):
         print(f"Error procesando el mensaje: {e}")
 
 # Configuración del cliente MQTT
-mqtt_broker = "10.172.117.171"  # Dirección del broker MQTT
+mqtt_broker = ""  # Dirección del broker MQTT
 mqtt_port = 1883
 mqtt_topic = "sensor/movimiento"  # Tópico del sensor
 
