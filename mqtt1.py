@@ -9,7 +9,7 @@ from seeed_dht import DHT
 from gpiozero import MotionSensor
 
 # Configuración de MQTT
-MQTT_BROKER = "10.172.117.171"
+MQTT_BROKER = "" #IP to the broker
 MQTT_PORT = 1883
 MQTT_TOPIC = "sensor/movimiento"
 MQTT_CLIENT_ID = "raspi07_client"
